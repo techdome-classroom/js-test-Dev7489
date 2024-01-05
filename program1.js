@@ -12,7 +12,7 @@ var isValid = function(s) {
     for(let char of s)
     {
         if(pairs[char]){
-            stack.push(char);
+            stack.push(char );
         }
         else if(
             char === ')' || char === '}' || char === ']'
